@@ -1,0 +1,44 @@
+@import 'variables';
+
+body {
+  font-size: $base-font-size;
+  font-family: $font-family;
+  margin: 0;
+}
+
+.header {
+  background-color: $background-color;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.logo {
+  width: $logo-width;
+  height: $logo-height;
+  float: left;
+  padding-right: $padding-right;
+}
+
+.about-company {
+  text-align: left;
+  padding-left: $padding-left;
+  padding-top: $padding-top;
+}
+
+.contact {
+  text-align: right;
+  padding-right: $padding-right;
+  color: $gray-color;
+}
+
+.btn-feedback {
+  color: $gray-color;
+  font-size: $btn-font-size;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.styled-text {
+  white-space: pre-line;
+}
