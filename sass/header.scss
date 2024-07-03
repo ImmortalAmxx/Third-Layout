@@ -1,23 +1,51 @@
 @import 'variables';
 
 body {
-  font-size: $base-font-size;
-  font-family: $font-family;
-  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  margin: $zero-value;
+  padding: $zero-value;
+  box-sizing: border-box;
 }
 
-.header {
-  background-color: $background-color;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 20px;
+header {
+  width: 100%;
+  background: #dcdcdc;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-content {
+  max-width: $max-width-header;
+  margin: $zero-value auto;
+  padding: $padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-size: $base-font-size;
+  font-weight: bold;
+  line-height: $line-height;
+  color: $gray-color;
+  line-height: normal;
+  white-space: pre-line;
+}
+
+.logo img {
+  margin-right: $margin-right;
   width: $logo-width;
   height: $logo-height;
-  float: left;
-  padding-right: $padding-right;
+}
+
+.logo small {
+  display: block;
+  font-size: $base-font-size;
+  color: $gray-color;
 }
 
 .about-company {
@@ -26,19 +54,26 @@ body {
   padding-top: $padding-top;
 }
 
-.contact {
+.contacts {
   text-align: right;
-  padding-right: $padding-right;
+}
+
+.contacts p {
+  margin: $zero-value;
+  font-size: $contact-font-size;
+  line-height: $line-height;
   color: $gray-color;
 }
 
-.btn-feedback {
-  color: $gray-color;
-  font-size: $btn-font-size;
+.feedback-link {
+  font-size: $base-font-size;
+  line-height: $line-height;
   text-decoration: underline;
-  text-decoration-style: dashed;
+  color: $gray-color;
 }
 
-.styled-text {
-  white-space: pre-line;
+@media (max-width: 1000px) {
+  .header-content {
+    padding: $padding;
+  }
 }

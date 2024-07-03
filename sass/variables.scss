@@ -1,13 +1,18 @@
-$background-color: #dcdcdc;
+$background-color-header: #dcdcdc;
 $gray-color: #767676;
+$max-width-header: 980px;
+$line-height: 22px;
+
 $base-font-size: 14px;
-$btn-font-size: 12px;
+$contact-font-size: 18px;
 $font-family: "PT Sans";
 
+$zero-value: 0px;
 $padding-left: 10px;
 $padding-top: 10px;
 $padding-right: 10px;
-$padding-bottom: 10px;
+$padding: 10px;
+$margin-right: 10px;
 
-$logo-width: 100px;
-$logo-height: 100px;
+$logo-width: 60px;
+$logo-height: 60px;

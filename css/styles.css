@@ -1,21 +1,49 @@
 body {
-  font-size: 14px;
-  font-family: "PT Sans";
-  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.header {
-  background-color: #dcdcdc;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 20px;
+header {
+  width: 100%;
+  background: #dcdcdc;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-content {
+  max-width: 980px;
+  margin: 0px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
-  float: left;
-  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #767676;
+  line-height: normal;
+  white-space: pre-line;
+}
+
+.logo img {
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.logo small {
+  display: block;
+  font-size: 14px;
+  color: #767676;
 }
 
 .about-company {
@@ -24,21 +52,28 @@ body {
   padding-top: 10px;
 }
 
-.contact {
+.contacts {
   text-align: right;
-  padding-right: 10px;
+}
+
+.contacts p {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 22px;
   color: #767676;
 }
 
-.btn-feedback {
-  color: #767676;
-  font-size: 12px;
+.feedback-link {
+  font-size: 14px;
+  line-height: 22px;
   text-decoration: underline;
-  text-decoration-style: dashed;
+  color: #767676;
 }
 
-.styled-text {
-  white-space: pre-line;
+@media (max-width: 1000px) {
+  .header-content {
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
