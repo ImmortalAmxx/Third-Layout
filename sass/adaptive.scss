@@ -1,0 +1,23 @@
+@media (max-width: 1000px) {
+  .header-content {
+    padding: $padding-def-value;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-items li {
+    border: none;
+    width: $with-hundred;
+  }
+
+  .menu-items a {
+    padding: $padding-def-value;
+    width: $with-hundred;
+    text-align: left;
+  }
+}

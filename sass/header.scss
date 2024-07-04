@@ -1,5 +1,3 @@
-@import 'variables';
-
 body {
   font-family: 'PT Sans', sans-serif;
   margin: $zero-value;
@@ -14,9 +12,9 @@ header {
 }
 
 .header-content {
-  max-width: $max-width-header;
+  max-width: $max-width;
   margin: $zero-value auto;
-  padding: $padding;
+  padding: $padding-def-value;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +35,7 @@ header {
 }
 
 .logo img {
-  margin-right: $margin-right;
+  margin-right: $margin-def-value;
   width: $logo-width;
   height: $logo-height;
 }
@@ -50,8 +48,8 @@ header {
 
 .about-company {
   text-align: left;
-  padding-left: $padding-left;
-  padding-top: $padding-top;
+  padding-left: $padding-def-value;
+  padding-top: $padding-def-value;
 }
 
 .contacts {
@@ -70,10 +68,4 @@ header {
   line-height: $line-height;
   text-decoration: underline;
   color: $gray-color;
-}
-
-@media (max-width: 1000px) {
-  .header-content {
-    padding: $padding;
-  }
 }

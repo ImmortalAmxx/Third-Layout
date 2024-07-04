@@ -1,18 +1,24 @@
 $background-color-header: #dcdcdc;
 $gray-color: #767676;
-$max-width-header: 980px;
+$white-color: #ffffff;
+$max-width: 980px;
 $line-height: 22px;
 
 $base-font-size: 14px;
 $contact-font-size: 18px;
+$nav-font-size: 20px;
 $font-family: "PT Sans";
 
 $zero-value: 0px;
-$padding-left: 10px;
-$padding-top: 10px;
-$padding-right: 10px;
-$padding: 10px;
-$margin-right: 10px;
+$padding-def-value: 10px;
+$padding-nav-value: 15px;
+$margin-def-value: 10px;
 
 $logo-width: 60px;
 $logo-height: 60px;
+$nav-width: 1000px;
+$with-hundred: 100%;
+
+$top-offset-li: 50px;
+$border-nav-radius: 1px;
+$item-transition: 0.3s;

@@ -1,0 +1,33 @@
+.main-menu {
+  background-color: $gray-color;
+  display: flex;
+  justify-content: center;
+  padding: $padding-nav-value;
+}
+
+.menu-nav {
+  width: $nav-width;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  transition: all $item-transition ease;
+}
+
+.menu-items li {
+  border-right: $border-nav-radius solid $white-color;
+}
+
+.menu-items li:last-child {
+  border: none;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: $white-color;
+  font-size: $nav-font-size;
+  padding: $zero-value $padding-def-value;
+}
