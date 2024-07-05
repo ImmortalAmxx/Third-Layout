@@ -1,0 +1,107 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: $width-max;
+  padding: $zero-value $padding-def-value;
+}
+
+.container-menu {
+  color: $gray-color;
+  align-self: flex-start;
+  margin-left: $margin-left-container;
+  margin-bottom: $margin-bottom-container;
+}
+
+.container-menu ul {
+  list-style: none;
+  padding: $zero-value;
+  margin: $zero-value;
+  display: flex;
+}
+
+.container-menu ul li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: $margin-right-container-ul;
+}
+
+.container-menu ul li:last-child {
+  font-weight: bold;
+}
+
+.container-menu ul li:not(:last-child)::after {
+  content: "/";
+  margin-left: $margin-left-container-li;
+  margin-right: $margin-right-container-li;
+  color: $gray-color;
+}
+
+.container-menu ul li a {
+  text-decoration: underline;
+  color: $gray-color;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: $width-content-left;
+  margin-right: $margin-def-value;
+  position: relative;
+}
+
+.content-left ul {
+  list-style-type: none;
+  margin: $zero-value;
+  padding-left: $padding-content-left;
+}
+
+.category-item ul {
+  list-style-type: disc;
+}
+
+.category-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.category-item {
+  padding: $padding-category-item;
+}
+
+.subcategory-dropdown {
+  display: none;
+}
+
+.category-item a,
+.subcategory-dropdown a {
+  text-decoration: none;
+  color: $gray-color;
+  font-weight: $sub-dropdown-font-weight;
+  position: relative;
+}
+
+.category-item a::after,
+.subcategory-dropdown a::after {
+  content: "";
+  position: absolute;
+  width: $width-hundred;
+  height: $height-sub-dropdown;
+  bottom: $bottom-sub-dropdown;
+  left: $zero-value;
+  background-color: transparent;
+  transition: background-color $sub-dropdown-transition ease-in-out;
+}
+
+.category-item a:hover::after,
+.subcategory-dropdown a:hover::after {
+  background-color: $gray-color;
+}

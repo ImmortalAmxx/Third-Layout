@@ -15,6 +15,9 @@ $height-hundred: 100%;
 $height-slider: 400px;
 $height-half: 50px;
 $width-btn-slider: 35px;
+$width-content-left: 970px;
+$height-sub-dropdown: 1px;
+$bottom-sub-dropdown: -1px;
 
 // Position variable
 $left-fourth-part: 25%;
@@ -22,21 +25,32 @@ $right-fourth-part: 25%;
 $padding-def-value: 10px;
 $padding-nav-value: 15px;
 $margin-def-value: 10px;
+$margin-left-container: 25px;
+$margin-bottom-container: 20px;
+$margin-left-container-li: 5px;
+$margin-right-container-ul: 5px;
+$margin-right-container-li: 5px;
+$padding-category-item: 5px;
+$padding-content-left: 20px;
 
 // Fonts
 $base-font-size: 14px;
 $contact-font-size: 18px;
 $nav-font-size: 20px;
 $slider-btn-font-size: 50px;
+$sub-dropdown-font-weight: 400;
 $font-family: "PT Sans";
+
+// Transition
+$item-transition: 0.3s;
+$sub-dropdown-transition: 0.3s;
+$slider-transition: 0.5s;
 
 // Other
 $zero-value: 0;
 $zero-value-px: 0px;
 $top-offset-li: 50px;
 $border-nav-radius: 1px;
-$item-transition: 0.3s;
-$slider-transition: 0.5s;
 $border-slider-radius: 2px;
 $opacity-slider-item: 1;
 $slider-btn-top: 43.5%;
