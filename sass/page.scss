@@ -1,7 +1,7 @@
 * {
-  margin: $zero-value;
-  padding: $zero-value;
-  line-height: $line-height;
+  margin: $zero-value-px;
+  padding: $zero-value-px;
+  line-height: $height-line;
   font-family: "PT Sans", sans-serif;
   font-size: $base-font-size;
 }
@@ -9,4 +9,10 @@
 body,
 html {
   height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }

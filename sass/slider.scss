@@ -1,0 +1,53 @@
+.slider-content {
+  position: relative;
+  margin: $zero-value-px;
+  padding: $zero-value-px;
+  height: $height-slider;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform $slider-transition ease-in-out;
+}
+
+.slider-item {
+  width: $width-hundred;
+  height: $height-slider;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-item.active {
+  opacity: $opacity-slider-item;
+  position: relative;
+}
+
+.slider-item img {
+  width: $width-hundred;
+  height: $height-hundred;
+  object-fit: contain;
+}
+
+.slider-button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: $slider-btn-top;
+  left: $left-fourth-part;
+  right: $right-fourth-part;
+}
+
+.slider-first-btn,
+.slider-last-btn {
+  background: transparent;
+  color: rgb($zero-value, $zero-value, $zero-value);
+  background-color: $slider-btn-color;
+  font-size: $slider-btn-font-size;
+  height: $height-half;
+  width: $width-btn-slider;
+  padding-bottom: $padding-def-value;
+  border-radius: $border-slider-radius;
+  border: none;
+  cursor: pointer;
+}

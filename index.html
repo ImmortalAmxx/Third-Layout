@@ -8,37 +8,58 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="header-content">
-        <div class="logo">
-          <img src="./img/logo.png" alt="Назва компанії" />
-          <div>
-            <span>Назва компанії</span>
-            <small>Сама крута компанія</small>
+    <div class="wrapper">
+      <header>
+        <div class="header-content">
+          <div class="logo">
+            <img src="./img/logo.png" alt="Назва компанії" />
+            <div>
+              <span>Назва компанії</span>
+              <small>Сама крута компанія</small>
+            </div>
+          </div>
+          <div class="contacts">
+            <p>+38 (066) 123-45-67</p>
+            <p>+38 (066) 123-45-67</p>
+            <a href="#" class="feedback-link">Зворотній зв'язок</a>
           </div>
         </div>
-        <div class="contacts">
-          <p>+38 (066) 123-45-67</p>
-          <p>+38 (066) 123-45-67</p>
-          <a href="#" class="feedback-link">Зворотній зв'язок</a>
+      </header>
+      <main>
+        <div class="main-menu">
+          <nav class="menu-nav">
+            <ul class="menu-items">
+              <li><a href="#">Головна</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Доставка та оплата</a></li>
+              <li><a href="#">Прайс-лист</a></li>
+              <li><a href="#">Контакти</a></li>
+            </ul>
+          </nav>
         </div>
-      </div>
-    </header>
-    <main>
-      <div class="main-menu">
-        <nav class="menu-nav">
-          <ul class="menu-items">
-            <li><a href="#">Головна</a></li>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Доставка та оплата</a></li>
-            <li><a href="#">Прайс-лист</a></li>
-            <li><a href="#">Контакти</a></li>
-          </ul>
-        </nav>
-      </div>
-    </main>
+        <div class="slider-content">
+          <div class="slider">
+            <div class="slider-item">
+              <img src="./img/slide1.jpg" alt="First slide" />
+            </div>
+            <div class="slider-item">
+              <img src="./img/slide2.jpg" alt="Second slide" />
+            </div>
+          </div>
+        </div>
+        <div class="slider-button">
+          <button class="slider-first-btn">&#8249;</button>
+          <button class="slider-last-btn">&#8250;</button>
+        </div>
+      </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="/js/slider.js"></script>
   </body>
 </html>

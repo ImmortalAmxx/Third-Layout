@@ -6,7 +6,7 @@
 }
 
 .menu-nav {
-  width: $nav-width;
+  width: $width-nav;
 }
 
 .menu-items {
@@ -29,5 +29,5 @@
   text-decoration: none;
   color: $white-color;
   font-size: $nav-font-size;
-  padding: $zero-value $padding-def-value;
+  padding: $zero-value-px $padding-def-value;
 }

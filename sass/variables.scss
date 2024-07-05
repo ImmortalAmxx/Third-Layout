@@ -1,24 +1,42 @@
-$background-color-header: #dcdcdc;
+// Colors
+$header-bg-color: #dcdcdc;
 $gray-color: #767676;
 $white-color: #ffffff;
-$max-width: 980px;
-$line-height: 22px;
+$slider-btn-color: rgb(209, 209, 209, 0.7);
 
-$base-font-size: 14px;
-$contact-font-size: 18px;
-$nav-font-size: 20px;
-$font-family: "PT Sans";
+// Width, hight variable
+$width-max: 980px;
+$height-line: 22px;
+$width-logo: 60px;
+$height-logo: 60px;
+$width-nav: 1000px;
+$width-hundred: 100%;
+$height-hundred: 100%;
+$height-slider: 400px;
+$height-half: 50px;
+$width-btn-slider: 35px;
 
-$zero-value: 0px;
+// Position variable
+$left-fourth-part: 25%;
+$right-fourth-part: 25%;
 $padding-def-value: 10px;
 $padding-nav-value: 15px;
 $margin-def-value: 10px;
 
-$logo-width: 60px;
-$logo-height: 60px;
-$nav-width: 1000px;
-$with-hundred: 100%;
+// Fonts
+$base-font-size: 14px;
+$contact-font-size: 18px;
+$nav-font-size: 20px;
+$slider-btn-font-size: 50px;
+$font-family: "PT Sans";
 
+// Other
+$zero-value: 0;
+$zero-value-px: 0px;
 $top-offset-li: 50px;
 $border-nav-radius: 1px;
 $item-transition: 0.3s;
+$slider-transition: 0.5s;
+$border-slider-radius: 2px;
+$opacity-slider-item: 1;
+$slider-btn-top: 43.5%;

@@ -1,7 +1,7 @@
 body {
   font-family: 'PT Sans', sans-serif;
-  margin: $zero-value;
-  padding: $zero-value;
+  margin: $zero-value-px;
+  padding: $zero-value-px;
   box-sizing: border-box;
 }
 
@@ -12,8 +12,8 @@ header {
 }
 
 .header-content {
-  max-width: $max-width;
-  margin: $zero-value auto;
+  max-width: $width-max;
+  margin: $zero-value-px auto;
   padding: $padding-def-value;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@ header {
 .logo span {
   font-size: $base-font-size;
   font-weight: bold;
-  line-height: $line-height;
+  line-height: $height-line;
   color: $gray-color;
   line-height: normal;
   white-space: pre-line;
@@ -36,8 +36,8 @@ header {
 
 .logo img {
   margin-right: $margin-def-value;
-  width: $logo-width;
-  height: $logo-height;
+  width: $width-logo;
+  height: $height-logo;
 }
 
 .logo small {
@@ -57,15 +57,15 @@ header {
 }
 
 .contacts p {
-  margin: $zero-value;
+  margin: $zero-value-px;
   font-size: $contact-font-size;
-  line-height: $line-height;
+  line-height: $height-line;
   color: $gray-color;
 }
 
 .feedback-link {
   font-size: $base-font-size;
-  line-height: $line-height;
+  line-height: $height-line;
   text-decoration: underline;
   color: $gray-color;
 }
