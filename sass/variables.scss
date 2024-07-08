@@ -1,44 +1,75 @@
 // Colors
 $header-bg-color: #dcdcdc;
 $gray-color: #767676;
+$light-gray-color: #dcdcdc;
 $white-color: #ffffff;
 $slider-btn-color: rgb(209, 209, 209, 0.7);
 
 // Width, hight variable
-$width-max: 980px;
 $height-line: 22px;
-$width-logo: 60px;
-$height-logo: 60px;
-$width-nav: 1000px;
-$width-hundred: 100%;
 $height-hundred: 100%;
+$height-hundred-px: 100px;
 $height-slider: 400px;
 $height-half: 50px;
-$width-btn-slider: 35px;
-$width-content-left: 970px;
 $height-sub-dropdown: 1px;
-$bottom-sub-dropdown: -1px;
+$height-logo: 60px;
+$height-slider-adaptive: 300px;
+$height-slider-adaptive-830px: 270px;
+$height-slider-adaptive-650px: 240px;
+$height-slider-adaptive-550px: 210px;
+$height-slider-adaptive-500px: 180px;
+$height-slider-adaptive-420px: 130px;
+$height-slider-adaptive-320px: 100px;
+$width-logo: 60px;
+$width-max: 980px;
+$width-nav: 1000px;
+$width-hundred: 100%;
+$width-hundred-px: 100%;
+$width-btn-slider: 35px;
+$width-content-left: 200px;
+$width-content-left-adaptive: 550px;
+$width-content-left-adaptive-830px: 600xp;
+$width-content-goods: 800px;
+$width-content-right: 500px;
+$width-bottom-text: 370px;
+$width-content-line: 790px;
+$width-content-goods-adaptive-550px: 260px;
+$width-content-goods-adaptive-650px: 550px;
+$width-content-goods-adaptive-830px: 650px;
 
 // Position variable
 $left-fourth-part: 25%;
 $right-fourth-part: 25%;
+$bottom-sub-dropdown: -1px;
+$padding-header: 40px;
 $padding-def-value: 10px;
 $padding-nav-value: 15px;
+$padding-category-item: 5px;
+$padding-content-left: 20px;
+$padding-bottom-left-image: 3px;
+$padding-category-menu-left: 20px;
 $margin-def-value: 10px;
 $margin-left-container: 25px;
 $margin-bottom-container: 20px;
 $margin-left-container-li: 5px;
 $margin-right-container-ul: 5px;
 $margin-right-container-li: 5px;
-$padding-category-item: 5px;
-$padding-content-left: 20px;
+$margin-top-left-image: 140px;
+$margin-left-left-image: 40px;
+$margin-right-left-image: 10px;
+$margin-left-price-list: 15px;
+$margin-top-page-number: 20px;
+$margin-content-bottom-text: 20px;
 
 // Fonts
 $base-font-size: 14px;
 $contact-font-size: 18px;
 $nav-font-size: 20px;
+$price-list-font-size: 26px;
 $slider-btn-font-size: 50px;
 $sub-dropdown-font-weight: 400;
+$page-number-font-weight: 300;
+$page-number-font-weight-li: 700;
 $font-family: "PT Sans";
 
 // Transition
@@ -54,3 +85,4 @@ $border-nav-radius: 1px;
 $border-slider-radius: 2px;
 $opacity-slider-item: 1;
 $slider-btn-top: 43.5%;
+$flex-grow-main-doc: 1;

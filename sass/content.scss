@@ -50,7 +50,7 @@
 
 .content-left {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: start;
   width: $width-content-left;
   margin-right: $margin-def-value;
@@ -104,4 +104,129 @@
 .category-item a:hover::after,
 .subcategory-dropdown a:hover::after {
   background-color: $gray-color;
+}
+
+.image-left-content {
+  position: relative;
+  overflow: hidden;
+  margin-top: $margin-top-left-image;
+  margin-left: $margin-left-left-image;
+}
+
+.image-left-content img {
+  display: block;
+  padding-bottom: $padding-bottom-left-image;
+  margin-right: $margin-right-left-image;
+  width: $width-hundred-px;
+  height: $height-hundred-px;
+}
+
+.price-list-lable h1 {
+  font-size: $price-list-font-size;
+  margin-top: $margin-def-value;
+  margin-left: $margin-left-price-list;
+  color: $gray-color;
+}
+
+.content-page-number ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: $margin-top-page-number;
+  font-weight: $page-number-font-weight;
+}
+
+.content-page-number li:not(:last-child) {
+  margin-right: $margin-def-value;
+}
+
+.content-page-number a {
+  text-decoration: none;
+  color: $gray-color;
+  cursor: pointer;
+}
+
+.content-page-number li.page-number-active {
+  font-weight: $page-number-font-weight-li;
+}
+
+.content-goods {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: $width-content-goods;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  width: $width-max;
+  padding: $zero-value $padding-def-value;
+}
+
+.item-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 360px;
+  margin: 5px;
+  background-color: $light-gray-color;
+}
+
+.item-store a {
+  text-decoration: none;
+  color: $gray-color;
+  font-weight: 300;
+}
+
+.goods-item-image {
+  width: 210px;
+  height: 210px;
+  padding: 20px;
+}
+
+.item-store p {
+  display: flex;
+  align-items: flex-start;
+  width: 210px;
+  margin-bottom: 20px;
+}
+
+.item-store-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 210px;
+}
+
+.item-store-price h1 {
+  font-size: 22px;
+}
+
+.content-page-number li.pagination-active {
+  font-weight: 700;
+}
+
+.item-store-price img {
+  height: 25px;
+  width: 25px;
+}
+
+.content-separate-line {
+  margin-top: 6%;
+  color: $gray-color;
+  margin-bottom: $margin-def-value;
+}
+
+.content-bottom-text {
+  display: flex;
+  margin-bottom: 200px;
+  margin-top: 20px;
+}
+
+.content-bottom-text p {
+  width: 50%;
+  color: #767676;
 }

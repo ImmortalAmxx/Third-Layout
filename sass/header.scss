@@ -6,18 +6,17 @@ body {
 }
 
 header {
-  width: 100%;
-  background: #dcdcdc;
-  border-bottom: 1px solid #ccc;
+  background-color: $light-gray-color;
+  display: flex;
+  justify-content: center;
+  padding: $padding-header;
 }
 
 .header-content {
-  max-width: $width-max;
-  margin: $zero-value-px auto;
-  padding: $padding-def-value;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  width: $width-max;
 }
 
 .logo {
@@ -54,6 +53,8 @@ header {
 
 .contacts {
   text-align: right;
+  position: relative;
+  top: -20px;
 }
 
 .contacts p {
