@@ -54,3 +54,14 @@ $(document).ready(function () {
     $('.category-item').off('mouseenter mouseleave');
   }
 });
+
+document.querySelector('.feedback-link').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.querySelector('.feedback-overlay').style.display = 'flex';
+});
+
+document.querySelector('.feedback-overlay').addEventListener('click', function(event) {
+  if (event.target === this) {
+    this.style.display = 'none';
+  }
+});
