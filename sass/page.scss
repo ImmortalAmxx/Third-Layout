@@ -11,12 +11,12 @@ html {
   height: $height-hundred;
 }
 
-.wrapper {
+.layout-wrapper {
   min-height: $width-hundred;
   display: flex;
   flex-direction: column;
 }
 
-.main-doc {
-  flex-grow: $flex-grow-main-doc;
+.main-document {
+  flex-grow: $flex-grow-main-document;
 }

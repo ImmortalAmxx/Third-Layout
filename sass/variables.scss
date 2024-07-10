@@ -4,6 +4,7 @@ $gray-color: #767676;
 $light-gray-color: #dcdcdc;
 $white-color: #ffffff;
 $slider-btn-color: rgb(209, 209, 209, 0.7);
+$feedback-form-color: #535353;
 
 // Width, hight variable
 $height-line: 22px;
@@ -12,7 +13,7 @@ $height-hundred-px: 100px;
 $height-slider: 400px;
 $height-half: 50px;
 $height-sub-dropdown: 1px;
-$height-logo: 60px;
+$height-logo: 100px;
 $height-slider-adaptive: 300px;
 $height-slider-adaptive-830px: 270px;
 $height-slider-adaptive-650px: 240px;
@@ -21,8 +22,11 @@ $height-slider-adaptive-500px: 180px;
 $height-slider-adaptive-420px: 130px;
 $height-slider-adaptive-320px: 100px;
 $heigth-footer-logo: 45px;
+$heigth-product: 360px;
+$heigth-goods-image: 210px;
+$height-product-price-img: 25px;
 
-$width-logo: 60px;
+$width-logo: 100px;
 $width-max: 980px;
 $width-nav: 1000px;
 $width-hundred: 100%;
@@ -39,6 +43,14 @@ $width-content-goods-adaptive-550px: 260px;
 $width-content-goods-adaptive-650px: 550px;
 $width-content-goods-adaptive-830px: 650px;
 $width-footer-logo: 35px;
+$width-brand-logo: 270px;
+$width-product: 250px;
+$width-product-p: 210px;
+$width-product-price: 210px;
+$width-goods-image: 210px;
+$width-product-price-img: 25px;
+$width-content-bottom-text: 50%;
+$width-header-logo-block: 275px;
 
 // Position variable
 $left-fourth-part: 25%;
@@ -51,6 +63,7 @@ $padding-category-item: 5px;
 $padding-content-left: 20px;
 $padding-bottom-left-image: 3px;
 $padding-category-menu-left: 20px;
+$padding-goods-image: 20px;
 $margin-def-value: 10px;
 $margin-left-container: 25px;
 $margin-bottom-container: 20px;
@@ -65,16 +78,28 @@ $margin-top-page-number: 20px;
 $margin-content-bottom-text: 20px;
 $margin-footer-content-top: 3%;
 $margin-footer-content-bottom: 2%;
+$margin-product: 5px;
+$margin-product-p: 20px;
+$margin-top-content-line: 6%;
+$margin-bottom-content-text: 200px;
+$margin-top-content-text: 20px;
+$margin-bottom-company-name: 10px;
 
 // Fonts
 $base-font-size: 14px;
+$brand-logo-font-size: 27px;
 $contact-font-size: 18px;
 $nav-font-size: 20px;
 $price-list-font-size: 26px;
 $slider-btn-font-size: 50px;
+$product-price-h1-font-size: 22px;
+$company-name-font-size: 30px;
+$feedback-bnt-font-size: 17px;
 $sub-dropdown-font-weight: 400;
 $page-number-font-weight: 300;
 $page-number-font-weight-li: 700;
+$product-font-weight: 300;
+$contact-info-font-weight: 400;
 $font-family: "PT Sans";
 
 // Transition
@@ -86,8 +111,11 @@ $slider-transition: 0.5s;
 $zero-value: 0;
 $zero-value-px: 0px;
 $top-offset-li: 50px;
+$top-contant-info: -20px;
 $border-nav-radius: 1px;
 $border-slider-radius: 2px;
-$opacity-slider-item: 1;
+$opacity-slide: 1;
 $slider-btn-top: 43.5%;
-$flex-grow-main-doc: 1;
+$flex-grow-main-document: 1;
+$contact-info-letter-spacing: 1px;
+$thickness-decoration-feedback: 2px;

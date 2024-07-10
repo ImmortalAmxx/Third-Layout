@@ -19,27 +19,31 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="layout-wrapper">
       <header>
-        <div class="header-content">
-          <div class="logo">
-            <img src="./img/logo.png" alt="Назва компанії" />
-            <div>
-              <span>Назва компанії</span>
+        <div class="header-inner-content">
+          <div class="brand-logo">
+            <div class="logo-img">
+              <img src="./img/logo.png" alt="Назва компанії" />
+            </div>
+            <div class="logo-name">
+              <h2 class="company-name">Назва компанії</h2>
               <small>Сама крута компанія</small>
             </div>
           </div>
-          <div class="contacts">
-            <p>+38 (066) 123-45-67</p>
-            <p>+38 (066) 123-45-67</p>
-            <a href="#" class="feedback-link">Зворотній зв'язок</a>
+          <div class="contact-info">
+            <ul class="header-contact-block-phone">
+              <li><a href="#">(066) 123-45-67</a></li>
+              <li><a href="#">(066) 123-45-67</a></li>
+            </ul>
+              <a href="#" class="feedback-link">Зворотній зв'язок</a>
           </div>
         </div>
       </header>
-      <main class="main-doc">
-        <div class="main-menu">
-          <nav class="menu-nav">
-            <ul class="menu-items">
+      <main class="main-document">
+        <div class="navigation-bar">
+          <nav class="navigation-menu">
+            <ul class="navigation-items">
               <li><a href="#">Головна</a></li>
               <li><a href="#">Каталог</a></li>
               <li><a href="#">Доставка та оплата</a></li>
@@ -48,23 +52,23 @@
             </ul>
           </nav>
         </div>
-        <div class="slider-content">
+        <div class="slider-wrapper">
           <div class="slider">
-            <div class="slider-item">
+            <div class="slide">
               <img src="./img/slide1.jpg" alt="First slide" />
             </div>
-            <div class="slider-item">
+            <div class="slide">
               <img src="./img/slide2.jpg" alt="Second slide" />
             </div>
           </div>
-          <div class="slider-button">
-            <button class="slider-first-btn">&#8249;</button>
-            <button class="slider-last-btn">&#8250;</button>
+          <div class="slider-buttons">
+            <button class="slider-button-prev">&#8249;</button>
+            <button class="slider-button-next">&#8250;</button>
           </div>
         </div>
-        <div class="main-content">
+        <div class="content-section">
           <div class="container">
-            <div class="container-menu">
+            <div class="breadcrumb-menu">
               <ul>
                 <li><a href="#">Головна</a></li>
                 <li><a href="#">Каталог</a></li>
@@ -124,7 +128,7 @@
               </div>
               <div class="content-right">
                 <div class="content-goods">
-                  <div class="item-store">
+                  <div class="product">
                     <img
                       class="goods-item-image"
                       src="./img/nophoto.jpg"
@@ -135,14 +139,14 @@
                         >Самий крутий товар, треба купувати обов'язково!</a
                       >
                     </p>
-                    <div class="item-store-price">
+                    <div class="product-price">
                       <h1>1 900 грн.</h1>
                       <a href="#"
                         ><img src="./img/icon_buy.svg" alt="basket"
                       /></a>
                     </div>
                   </div>
-                  <div class="item-store">
+                  <div class="product">
                     <img
                       class="goods-item-image"
                       src="./img/nophoto.jpg"
@@ -153,14 +157,14 @@
                         >Самий крутий товар, треба купувати обов'язково!</a
                       >
                     </p>
-                    <div class="item-store-price">
+                    <div class="product-price">
                       <h1>1 900 грн.</h1>
                       <a href="#"
                         ><img src="./img/icon_buy.svg" alt="basket"
                       /></a>
                     </div>
                   </div>
-                  <div class="item-store">
+                  <div class="product">
                     <img
                       class="goods-item-image"
                       src="./img/nophoto.jpg"
@@ -171,14 +175,14 @@
                         >Самий крутий товар, треба купувати обов'язково!</a
                       >
                     </p>
-                    <div class="item-store-price">
+                    <div class="product-price">
                       <h1>1 900 грн.</h1>
                       <a href="#"
                         ><img src="./img/icon_buy.svg" alt="basket"
                       /></a>
                     </div>
                   </div>
-                  <div class="item-store">
+                  <div class="product">
                     <img
                       class="goods-item-image"
                       src="./img/nophoto.jpg"
@@ -189,14 +193,14 @@
                         >Самий крутий товар, треба купувати обов'язково!</a
                       >
                     </p>
-                    <div class="item-store-price">
+                    <div class="product-price">
                       <h1>1 900 грн.</h1>
                       <a href="#"
                         ><img src="./img/icon_buy.svg" alt="basket"
                       /></a>
                     </div>
                   </div>
-                  <div class="item-store">
+                  <div class="product">
                     <img
                       class="goods-item-image"
                       src="./img/nophoto.jpg"
@@ -207,7 +211,7 @@
                         >Самий крутий товар, треба купувати обов'язково!</a
                       >
                     </p>
-                    <div class="item-store-price">
+                    <div class="product-price">
                       <h1>1 900 грн.</h1>
                       <a href="#"
                         ><img src="./img/icon_buy.svg" alt="basket"
@@ -284,20 +288,21 @@
         <form>
           <label for="name">Ваше ім'я*</label>
           <input type="text" id="name" name="name" required />
-
+    
           <label for="phone">Телефон*</label>
           <input type="tel" id="phone" name="phone" required />
-
+    
           <label for="email">Email*</label>
           <input type="email" id="email" name="email" required />
-
+    
           <label for="message">Повідомлення</label>
           <textarea id="message" name="message"></textarea>
-
+    
           <button type="submit">ВІДПРАВИТИ</button>
         </form>
       </div>
     </div>
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="/js/app.js"></script>

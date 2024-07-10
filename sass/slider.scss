@@ -1,4 +1,4 @@
-.slider-content {
+.slider-wrapper {
   position: relative;
   margin: $zero-value-px;
   padding: $zero-value-px;
@@ -11,25 +11,25 @@
   transition: transform $slider-transition ease-in-out;
 }
 
-.slider-item {
+.slide {
   width: $width-hundred;
   height: $height-slider;
   background-size: cover;
   background-position: center;
 }
 
-.slider-item.active {
-  opacity: $opacity-slider-item;
+.slide.active {
+  opacity: $opacity-slide;
   position: relative;
 }
 
-.slider-item img {
+.slide img {
   width: $width-hundred;
   height: $height-hundred;
   object-fit: contain;
 }
 
-.slider-button {
+.slider-buttons {
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -38,8 +38,8 @@
   right: $right-fourth-part;
 }
 
-.slider-first-btn,
-.slider-last-btn {
+.slider-button-prev,
+.slider-button-next {
   background: transparent;
   color: rgb($zero-value, $zero-value, $zero-value);
   background-color: $slider-btn-color;

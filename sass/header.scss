@@ -1,10 +1,3 @@
-body {
-  font-family: 'PT Sans', sans-serif;
-  margin: $zero-value-px;
-  padding: $zero-value-px;
-  box-sizing: border-box;
-}
-
 header {
   background-color: $light-gray-color;
   display: flex;
@@ -12,20 +5,56 @@ header {
   padding: $padding-header;
 }
 
-.header-content {
+.logo-name {
+  margin-left: $margin-def-value;
+}
+
+.company-name {
+  color: $gray-color;
+  font-size: $company-name-font-size;
+  margin-bottom: $margin-bottom-company-name;
+}
+
+.header-contact-block-phone a {
+  line-height: 1.5;
+  display: inline-block;
+  transform: scaleY(1.4);
+  transform-origin: center left;
+  letter-spacing: 1.8px;
+  font-weight: 300;
+  font-size: 24px;
+  text-decoration: none;
+  color: $gray-color;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  letter-spacing: $contact-info-letter-spacing;
+  font-weight: $contact-info-font-weight;
+  padding: $zero-value;
+}
+
+.header-logo-block {
+  display: flex;
+  align-items: center;
+  width: $width-header-logo-block;
+}
+
+.header-inner-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: $width-max;
 }
 
-.logo {
+.brand-logo {
+  width: $width-brand-logo;
   display: flex;
   align-items: center;
 }
 
-.logo span {
-  font-size: $base-font-size;
+.brand-logo span {
+  font-size: $brand-logo-font-size;
   font-weight: bold;
   line-height: $height-line;
   color: $gray-color;
@@ -33,31 +62,25 @@ header {
   white-space: pre-line;
 }
 
-.logo img {
+.brand-logo img {
   margin-right: $margin-def-value;
   width: $width-logo;
   height: $height-logo;
 }
 
-.logo small {
+.brand-logo small {
   display: block;
   font-size: $base-font-size;
   color: $gray-color;
 }
 
-.about-company {
-  text-align: left;
-  padding-left: $padding-def-value;
-  padding-top: $padding-def-value;
-}
-
-.contacts {
+.contact-info {
   text-align: right;
   position: relative;
-  top: -20px;
+  top: $top-contant-info;
 }
 
-.contacts p {
+.contact-info p {
   margin: $zero-value-px;
   font-size: $contact-font-size;
   line-height: $height-line;
@@ -65,8 +88,9 @@ header {
 }
 
 .feedback-link {
-  font-size: $base-font-size;
+  font-size: $feedback-bnt-font-size;
   line-height: $height-line;
-  text-decoration: underline;
+  text-decoration: underline dotted $thickness-decoration-feedback;
   color: $gray-color;
+  font-weight: bold;
 }
