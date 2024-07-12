@@ -2,19 +2,27 @@
   Slider function (buttons)
 */
 $(document).ready(function(){
-  $('.slider').slick({
-    infinite: true,
+  $(".slider").slick({
+    arrows: false,
+    dots: false,
+    adaptiveHeight: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false, // Disable default arrows
-    autoplay: false
+    speed: 1000,
+    easing: "_linear",
+    infinite: true,
+    initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    fade: true,
+    cssEase: "linear",
   });
 
-  $('.slider-first-btn').on('click', function(){
+  $('.slider-button-prev').on('click', function(){
     $('.slider').slick('slickPrev');
   });
 
-  $('.slider-last-btn').on('click', function(){
+  $('.slider-button-next').on('click', function(){
     $('.slider').slick('slickNext');
   });
 });
