@@ -507,8 +507,7 @@ header {
 .feedback-modal {
   background: #ffffff;
   padding: 40px;
-  width: 300px;
-  height: 100vh;
+  width: 25%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -518,8 +517,9 @@ header {
 
 .feedback-modal h2 {
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #535353;
+  margin-top: 20px;
 }
 
 .feedback-modal form {
@@ -824,6 +824,25 @@ header {
   }
   .content-bottom-text p {
     width: 200px;
+  }
+}
+/* Modal view */
+@media (max-width: 600px) {
+  .feedback-modal {
+    width: calc(100% - 40px);
+  }
+  .feedback-modal h2 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 400px) and (max-width: 1396px) {
+  .feedback-modal {
+    width: 300px;
+  }
+  .feedback-modal h2 {
+    margin-top: 15px;
+    font-size: 18px;
   }
 }
 
