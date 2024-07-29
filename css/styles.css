@@ -361,7 +361,8 @@ header {
   cursor: pointer;
 }
 
-.content-page-number li.page-number-active {
+.content-page-number li.page-number-active,
+.content-page-number li.pagination-active {
   font-weight: 700;
 }
 
@@ -417,10 +418,6 @@ header {
 
 .product-price h1 {
   font-size: 22px;
-}
-
-.content-page-number li.pagination-active {
-  font-weight: 700;
 }
 
 .product-price img {
@@ -649,7 +646,7 @@ header {
   /* Content left */
   .content-left {
     justify-content: center;
-    width: 600xp;
+    width: 600px;
   }
   /* Slider buttons */
   .slider-buttons {

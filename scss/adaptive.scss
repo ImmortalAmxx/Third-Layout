@@ -27,11 +27,11 @@
   .content-bottom-text p {
     margin-left: $margin-content-bottom-text;
     margin-right: $margin-content-bottom-text;
-    width: $width-bottom-text;
+    width: 370px;
   }
 
   .content-separate-line {
-    width: $width-content-line;
+    width: 790px;
   }
 
   /* Main content container */
@@ -53,25 +53,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: $width-content-right;
+    width: 500px;
   }
 
   .content-left {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: $width-content-left-adaptive;
+    width: 550px;
   }
 
   /* Slider */
   .slider-wrapper {
-    height: $height-slider-adaptive;
+    height: 300px;
     width: auto;
   }
 
   .slide img {
     width: $width-hundred;
-    height: $height-slider-adaptive;
+    height: 300px;
     object-fit: contain;
   }
 
@@ -100,7 +100,7 @@
   /* Content left */
   .content-left {
     justify-content: center;
-    width: $width-content-left-adaptive-830px;
+    width: 600px;
   }
 
   /* Slider buttons */
@@ -142,12 +142,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: $width-content-goods-adaptive-830px;
+    width: 650px;
   }
 
   .slider-wrapper,
   .slide img {
-    height: $height-slider-adaptive-830px;
+    height: 270px;
   }
 
   .content-container {
@@ -184,12 +184,12 @@
 
   /* Content goods */
   .content-goods {
-    width: $width-content-goods-adaptive-650px;
+    width: 550px;
   }
 
   .slider-wrapper,
   .slide img {
-    height: $height-slider-adaptive-650px;
+    height: 240px;
   }
 
   .container {
@@ -247,12 +247,12 @@
 
   /* Content goods */
   .content-goods {
-    width: $width-content-goods-adaptive-550px;
+    width: 260px;
   }
 
   .slider-wrapper,
   .slide img {
-    height: $height-slider-adaptive-550px;
+    height: 210px;
   }
 
   /* Footer */
@@ -289,7 +289,7 @@
   /* Slider */
   .slider-wrapper,
   .slide img {
-    height: $height-slider-adaptive-500px;
+    height: 180px;
   }
 
   .content-bottom-text p {
@@ -301,7 +301,7 @@
   /* Slider */
   .slider-wrapper,
   .slide img {
-    height: $height-slider-adaptive-420px;
+    height: 130px;
   }
 
   .content-separate-line {
@@ -313,7 +313,7 @@
   /* Slider */
   .slider-wrapper,
   .slide img {
-    height: $height-slider-adaptive-320px;
+    height: 100px;
   }
 
   .content-separate-line {

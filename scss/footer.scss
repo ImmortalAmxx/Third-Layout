@@ -12,7 +12,7 @@
   align-items: flex-start;
   justify-content: space-between;
   width: $width-max;
-  margin: $margin-footer-content-top $zero-value $margin-footer-content-bottom $zero-value;
+  margin: 3% $zero-value 2% $zero-value;
 }
   
 .footer-content-email a,
@@ -41,7 +41,7 @@
   
 .footer-content-logo img {
   margin-right: $margin-def-value;
-  width: $width-footer-logo;
-  height: $heigth-footer-logo;
+  width: 35px;
+  height: 45px;
 }
   

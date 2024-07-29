@@ -2,7 +2,7 @@ header {
   background-color: $light-gray-color;
   display: flex;
   justify-content: center;
-  padding: $padding-header;
+  padding: 40px;
 }
 
 .logo-name {
@@ -11,8 +11,8 @@ header {
 
 .company-name {
   color: $gray-color;
-  font-size: $company-name-font-size;
-  margin-bottom: $margin-bottom-company-name;
+  font-size: 30px;
+  margin-bottom: $margin-def-value;
 }
 
 .header-contact-block-phone a {
@@ -30,14 +30,14 @@ header {
 .contact-info ul {
   list-style-type: none;
   letter-spacing: 1px;
-  font-weight: $contact-info-font-weight;
+  font-weight: 400;
   padding: $zero-value;
 }
 
 .header-logo-block {
   display: flex;
   align-items: center;
-  width: $width-header-logo-block;
+  width: 275px;
 }
 
 .header-inner-content {
@@ -48,13 +48,13 @@ header {
 }
 
 .brand-logo {
-  width: $width-brand-logo;
+  width: 270px;
   display: flex;
   align-items: center;
 }
 
 .brand-logo span {
-  font-size: $brand-logo-font-size;
+  font-size: 27px;
   font-weight: bold;
   line-height: $height-line;
   color: $gray-color;
@@ -65,7 +65,7 @@ header {
 .brand-logo img {
   margin-right: $margin-def-value;
   width: 100px;
-  height: $height-logo;
+  height: 100px;
 }
 
 .brand-logo small {
@@ -82,13 +82,13 @@ header {
 
 .contact-info p {
   margin: $zero-value-px;
-  font-size: $contact-font-size;
+  font-size: 18px;
   line-height: $height-line;
   color: $gray-color;
 }
 
 .feedback-link {
-  font-size: $feedback-bnt-font-size;
+  font-size: 17px;
   line-height: $height-line;
   text-decoration: underline dotted 2px;
   color: $gray-color;

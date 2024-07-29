@@ -8,7 +8,7 @@
 
 .slider {
   display: flex;
-  transition: transform $slider-transition ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .slide {
@@ -34,8 +34,8 @@
   display: flex;
   justify-content: space-between;
   top: 43.5%;
-  left: $left-fourth-part;
-  right: $right-fourth-part;
+  left: 25%;
+  right: 25%;
 }
 
 .slider-button-prev,
@@ -43,9 +43,9 @@
   background: transparent;
   color: rgb($zero-value, $zero-value, $zero-value);
   background-color: $slider-btn-color;
-  font-size: $slider-btn-font-size;
-  height: $height-half;
-  width: $width-btn-slider;
+  font-size: 50px;
+  height: 50px;
+  width: 35px;
   padding-bottom: $padding-def-value;
   border-radius: 2px;
   border: none;
