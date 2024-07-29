@@ -22,6 +22,10 @@ html {
   flex-grow: 1;
 }
 
+.container {
+  width: 980px;
+}
+
 /* Header */
 header {
   background-color: #dcdcdc;
@@ -69,7 +73,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 980px;
 }
 
 .brand-logo {
@@ -126,10 +129,6 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px;
-}
-
-.navigation-menu {
-  width: 1000px;
 }
 
 .navigation-items {
@@ -217,11 +216,10 @@ header {
   align-items: center;
 }
 
-.container {
+.content-wrapper {
   flex-direction: column;
   display: flex;
   align-items: center;
-  width: 980px;
   padding: 0 10px;
 }
 

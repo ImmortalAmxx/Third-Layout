@@ -4,11 +4,10 @@
   align-items: center;
 }
 
-.container {
+.content-wrapper {
   flex-direction: column;
   display: flex;
   align-items: center;
-  width: $width-max;
   padding: 0 $padding-def-value;
 }
 
@@ -158,7 +157,6 @@
 .content-container {
   display: flex;
   justify-content: center;
-  width: $width-max;
   padding: 0 $padding-def-value;
 }
 
