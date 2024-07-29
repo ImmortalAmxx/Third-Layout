@@ -10,7 +10,7 @@
 .footer-content {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
   width: $width-max;
   margin: $margin-footer-content-top $zero-value $margin-footer-content-bottom $zero-value;
 }

@@ -6,7 +6,7 @@
 }
 
 .navigation-menu {
-  width: $width-nav;
+  width: 1000px;
 }
 
 .navigation-items {
@@ -14,11 +14,11 @@
   justify-content: center;
   list-style-type: none;
   align-items: center;
-  transition: all $item-transition ease;
+  transition: all 0.3s ease;
 }
 
 .navigation-items li {
-  border-right: $border-nav-radius solid $white-color;
+  border-right: 1px solid $white-color;
 }
 
 .navigation-items li:last-child {

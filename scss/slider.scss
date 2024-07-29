@@ -19,7 +19,7 @@
 }
 
 .slide.active {
-  opacity: $opacity-slide;
+  opacity: 1;
   position: relative;
 }
 
@@ -33,7 +33,7 @@
   position: absolute;
   display: flex;
   justify-content: space-between;
-  top: $slider-btn-top;
+  top: 43.5%;
   left: $left-fourth-part;
   right: $right-fourth-part;
 }
@@ -47,7 +47,7 @@
   height: $height-half;
   width: $width-btn-slider;
   padding-bottom: $padding-def-value;
-  border-radius: $border-slider-radius;
+  border-radius: 2px;
   border: none;
   cursor: pointer;
 }

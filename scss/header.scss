@@ -29,7 +29,7 @@ header {
 
 .contact-info ul {
   list-style-type: none;
-  letter-spacing: $contact-info-letter-spacing;
+  letter-spacing: 1px;
   font-weight: $contact-info-font-weight;
   padding: $zero-value;
 }
@@ -42,7 +42,7 @@ header {
 
 .header-inner-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: $width-max;
 }
@@ -64,7 +64,7 @@ header {
 
 .brand-logo img {
   margin-right: $margin-def-value;
-  width: $width-logo;
+  width: 100px;
   height: $height-logo;
 }
 
@@ -77,7 +77,7 @@ header {
 .contact-info {
   text-align: right;
   position: relative;
-  top: $top-contant-info;
+  top: -20px;
 }
 
 .contact-info p {
@@ -90,7 +90,7 @@ header {
 .feedback-link {
   font-size: $feedback-bnt-font-size;
   line-height: $height-line;
-  text-decoration: underline dotted $thickness-decoration-feedback;
+  text-decoration: underline dotted 2px;
   color: $gray-color;
   font-weight: bold;
 }

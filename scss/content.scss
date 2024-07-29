@@ -17,6 +17,7 @@
   align-self: flex-start;
   margin-left: $margin-left-container;
   margin-bottom: $margin-bottom-container;
+  margin-top: 10px;
 }
 
 .breadcrumb-menu ul {
@@ -98,7 +99,7 @@
   bottom: $bottom-sub-dropdown;
   left: $zero-value;
   background-color: transparent;
-  transition: background-color $sub-dropdown-transition ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .category-item a:hover::after,

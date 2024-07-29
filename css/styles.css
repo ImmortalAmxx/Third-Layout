@@ -67,7 +67,7 @@ header {
 
 .header-inner-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 980px;
 }
@@ -230,6 +230,7 @@ header {
   align-self: flex-start;
   margin-left: 25px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .breadcrumb-menu ul {
@@ -456,7 +457,7 @@ header {
 .footer-content {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 980px;
   margin: 3% 0 2% 0;
 }

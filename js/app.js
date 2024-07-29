@@ -1,7 +1,8 @@
-/*
-  Slider function (buttons)
-*/
-$(document).ready(function(){
+$(document).ready(function () {
+  /*
+    Slider function (buttons)
+  */
+
   $(".slider").slick({
     arrows: false,
     dots: false,
@@ -18,19 +19,18 @@ $(document).ready(function(){
     cssEase: "linear",
   });
 
-  $('.slider-button-prev').on('click', function(){
+  $('.slider-button-prev').on('click', function () {
     $('.slider').slick('slickPrev');
   });
 
-  $('.slider-button-next').on('click', function(){
+  $('.slider-button-next').on('click', function () {
     $('.slider').slick('slickNext');
   });
-});
 
-/*
-  Hover effects for dropdown menu.
-*/
-$(document).ready(function () {
+  /*
+    Hover effects for dropdown menu.
+  */
+
   $(".subcategory-dropdown").hide();
 
   $(".category-item").click(function (event) {
@@ -38,37 +38,42 @@ $(document).ready(function () {
 
     $(this).find(".subcategory-dropdown").slideToggle();
   });
-  if($(window).width() > 830) {
+
+  if ($(window).width() > 830) {
     enableHoverScript();
   }
-  $(window).resize(function() {
-    if($(window).width() > 830) {
+
+  $(window).resize(function () {
+    if ($(window).width() > 830) {
       enableHoverScript();
     } else {
       disableHoverScript();
     }
   });
+
   function enableHoverScript() {
     $('.category-item').hover(
-      function() {
+      function () {
         $(this).find('.subcategory-dropdown').stop(true, true).slideDown('slow');
       },
-      function() {
+
+      function () {
         $(this).find('.subcategory-dropdown').stop(true, true).slideUp('slow');
       }
     );
   }
+  
   function disableHoverScript() {
     $('.category-item').off('mouseenter mouseleave');
   }
 });
 
-document.querySelector('.feedback-link').addEventListener('click', function(event) {
+document.querySelector('.feedback-link').addEventListener('click', function (event) {
   event.preventDefault();
   document.querySelector('.feedback-overlay').style.display = 'flex';
 });
 
-document.querySelector('.feedback-overlay').addEventListener('click', function(event) {
+document.querySelector('.feedback-overlay').addEventListener('click', function (event) {
   if (event.target === this) {
     this.style.display = 'none';
   }
