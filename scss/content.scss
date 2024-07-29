@@ -14,7 +14,7 @@
 .breadcrumb-menu {
   color: $gray-color;
   align-self: flex-start;
-  margin: $margin-def-value 0 20px 25px;
+  margin: $margin-def-value 0 20px 0;
 }
 
 .breadcrumb-menu ul {
@@ -106,15 +106,13 @@
 .image-left-content {
   position: relative;
   overflow: hidden;
-  margin: 140px 0 0 40px;
+  margin: 155px 0 0 40px;
 }
 
 .image-left-content img {
   display: block;
   padding-bottom: 3px;
   margin-right: 10px;
-  width: 100px;
-  height: 100px;
 }
 
 .price-list-lable h1 {

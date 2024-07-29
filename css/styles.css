@@ -226,7 +226,7 @@ header {
 .breadcrumb-menu {
   color: #767676;
   align-self: flex-start;
-  margin: 10px 0 20px 25px;
+  margin: 10px 0 20px 0;
 }
 
 .breadcrumb-menu ul {
@@ -318,15 +318,13 @@ header {
 .image-left-content {
   position: relative;
   overflow: hidden;
-  margin: 140px 0 0 40px;
+  margin: 155px 0 0 40px;
 }
 
 .image-left-content img {
   display: block;
   padding-bottom: 3px;
   margin-right: 10px;
-  width: 100px;
-  height: 100px;
 }
 
 .price-list-lable h1 {
@@ -369,7 +367,6 @@ header {
 .content-container {
   display: flex;
   justify-content: center;
-  width: 980px;
   padding: 0 10px;
 }
 
@@ -446,7 +443,6 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 980px;
   margin: 3% 0 2% 0;
 }
 
