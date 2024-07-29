@@ -19,14 +19,13 @@
 
   /* Content bottom text */
   .content-bottom-text {
-    margin: 2% $zero-value;
+    margin: 2% 0;
     display: flex;
     justify-content: space-between;
   }
 
   .content-bottom-text p {
-    margin-left: $margin-content-bottom-text;
-    margin-right: $margin-content-bottom-text;
+    margin: 0 20px 0 20px;
     width: 370px;
   }
 
@@ -151,7 +150,7 @@
   }
 
   .content-container {
-    padding: $zero-value;
+    padding: 0;
   }
 
   .content-separate-line {
@@ -165,8 +164,7 @@
 
   .content-bottom-text p {
     width: 480px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: $margin-def-value 0 $margin-def-value 0;
   }
 }
 
@@ -193,7 +191,7 @@
   }
 
   .container {
-    padding: $zero-value;
+    padding: 0;
   }
 
   .content-container {
@@ -332,7 +330,7 @@
   }
   
   .feedback-modal h2 {
-    margin-top: 10px;
+    margin-top: $margin-def-value;
     font-size: 16px;
   }
 }

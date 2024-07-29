@@ -228,9 +228,7 @@ header {
 .breadcrumb-menu {
   color: #767676;
   align-self: flex-start;
-  margin-left: 25px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin: 10px 0 20px 25px;
 }
 
 .breadcrumb-menu ul {
@@ -252,8 +250,7 @@ header {
 
 .breadcrumb-menu ul li:not(:last-child)::after {
   content: "/";
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 5px 0 5px;
   color: #767676;
 }
 
@@ -323,8 +320,7 @@ header {
 .image-left-content {
   position: relative;
   overflow: hidden;
-  margin-top: 140px;
-  margin-left: 40px;
+  margin: 140px 0 0 40px;
 }
 
 .image-left-content img {
@@ -337,8 +333,7 @@ header {
 
 .price-list-lable h1 {
   font-size: 26px;
-  margin-top: 10px;
-  margin-left: 15px;
+  margin: 10px 0 0 15px;
   color: #767676;
 }
 
@@ -426,15 +421,13 @@ header {
 }
 
 .content-separate-line {
-  margin-top: 6%;
   color: #767676;
-  margin-bottom: 10px;
+  margin: 6% 0 10px 0;
 }
 
 .content-bottom-text {
   display: flex;
-  margin-bottom: 200px;
-  margin-top: 20px;
+  margin: 20px 0 200px 0;
 }
 
 .content-bottom-text p {
@@ -583,8 +576,7 @@ header {
     justify-content: space-between;
   }
   .content-bottom-text p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px 0 20px;
     width: 370px;
   }
   .content-separate-line {
@@ -699,8 +691,7 @@ header {
   }
   .content-bottom-text p {
     width: 480px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
   }
 }
 @media screen and (max-width: 650px) {

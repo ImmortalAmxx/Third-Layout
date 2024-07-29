@@ -31,7 +31,7 @@ header {
   list-style-type: none;
   letter-spacing: 1px;
   font-weight: 400;
-  padding: $zero-value;
+  padding: 0;
 }
 
 .header-logo-block {
@@ -81,7 +81,7 @@ header {
 }
 
 .contact-info p {
-  margin: $zero-value-px;
+  margin: 0px;
   font-size: 18px;
   line-height: $height-line;
   color: $gray-color;
