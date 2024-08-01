@@ -58,21 +58,22 @@ $(document).ready(function () {
       }
     );
   }
-  
+
   function disableHoverScript() {
     $('.category-item').off('mouseenter mouseleave');
   }
 
   /* Feedback notification */
-  $('#feedback-form').on('submit', function(event) {
+  $('#feedback-form').on('submit', function (event) {
     event.preventDefault();
-    var name = $('#name').val().trim();
-    var phone = $('#phone').val().trim();
-    var email = $('#email').val().trim();
-    var message = $('#message').val().trim();
+    const name = $('#name').val().trim();
+    const phone = $('#phone').val().trim();
+    const email = $('#email').val().trim();
+    const message = $('#message').val().trim();
 
-    if (name !== '' && phone !== '' && email !== '' && message !== '') {
+    if (name !== '' && phone !== '' && email !== '' && message !== '' && validateName(name) && validatePhoneNumber(phone) && validateMessage(message)) {
       alert('Ваше повідомлення надіслано!');
+      $('#feedback-form')[0].reset();
       $('.feedback-overlay').hide();
     }
   });
@@ -91,4 +92,45 @@ $(document).ready(function () {
       this.style.display = 'none';
     }
   });
+
+  /* Validate name */
+  function validateName(name) {
+    const namePattern = /^[a-zA-Zа-яА-ЯїЇєЄіІ]{2,}$/;
+    const isValid = namePattern.test(name);
+
+    if (!isValid) {
+      alert('Ім\'я повинно містити тільки літери і мінімум 2 символи');
+      return false;
+    }
+
+    return true;
+  }
+
+  /* Validate phone */
+  function validatePhoneNumber(phone) {
+    const cleanedPhoneInput = phone.replace(/[\s\-]/g, '');
+    const phonePattern = /^\+[0-9]{7,14}$/;
+    const isValid = phonePattern.test(cleanedPhoneInput);
+
+    if (!isValid) {
+      alert('Номер телефону повинен починатися з + і містити від 8 до 15 цифр.');
+      return false;
+    }
+
+    return true;
+  }
+
+  /* Validate message */
+  function validateMessage(message) {
+    const messageLength = message.length;
+    const isValid = messageLength >= 3;
+    const isOnlySpace = message.trim() === ''
+
+    if (!isValid || isOnlySpace) {
+      alert('Повідомлення має містити не менше 3 символів.');
+      return false;
+    }
+
+    return true;
+  }
 });
